@@ -8,6 +8,7 @@
 - `models/`: 包含训练所得预训练模型。
 - `train.py`: 训练transformer，内部可以修改数据的输入方式，模型的定义以及训练参数
 - `predict.py`: 对测试集数据进行测试，并将测试结果通过SSH连接的方式控制NAO机器人动作
-
+- `pycall_NAO*.py`: NAO机器人动作控制代码
+- 
 ## 环境配置
 Pytorch(GPU版本)、Paramiko库
